@@ -1,0 +1,91 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #16003D;
+   position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #5A189A;
+}
+
+.active {
+  background-color: #34085E;
+}
+body{
+  background-color: #E0AAFF;
+  text-align: center;
+  }
+  .Top{
+    border-style: double;
+    border-color: rgb(45, 15, 75);
+    border-radius: 5px;
+    margin-top: 1%;
+    background-color: #9FC581
+  }
+.Bottom{
+  margin-top: 26%;
+  border-style: double;
+  border-color: rgb(45, 15, 75);
+  border-radius: 5px;
+  background-color: #9FC581
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -64.5px;
+  margin-top: -85.5px;
+}
+
+.ghost {
+  animation: float 3s ease-out infinite;
+}
+
+@keyframes float {
+  50% {
+     transform: translate(0, 20px);
+  }
+}
+.shadowFrame {
+  width: 130px;
+  margin-top: 15px;
+}
+.shadow {
+  animation: shrink 3s ease-out infinite;
+  transform-origin: center center;
+  ellipse {
+    transform-origin: center center;
+  }
+}
+
+@keyframes shrink {
+  0% {
+    width: 90%;
+    margin: 0 5%;
+  }
+  50% {
+    width: 60%;
+    margin: 0 18%;
+  }
+  100% {
+    width: 90%;
+    margin: 0 5%;
+  }
+}

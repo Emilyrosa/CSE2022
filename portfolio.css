@@ -1,0 +1,58 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #012A4A;
+   position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #468FAF;
+}
+
+.active {
+  background-color: #01497C;
+}
+body{
+  background-color: #D0E9F1;
+ text-align: center 
+ }
+
+img {
+  border: 3px solid #012A4A;
+  border-radius: 88px;
+  padding: 0px;
+  width: 55%;
+  /* height: 210px; */
+  
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px #4B4A67;
+}
+#Spect{
+  color: black
+}
+.top{
+  border-style: double;
+  border-radius: 5px;
+  border-color: #012A4A;
+  background-color: #5FAAD3
+}
+
+#FFC07F

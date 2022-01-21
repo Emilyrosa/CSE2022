@@ -1,0 +1,86 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #283F3B;
+   position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:#659B5E ;
+}
+
+.active {
+  background-color: #556F44;
+}
+body{
+  background-color: #9FC581 ;
+}
+#main{
+  text-align: center;
+}
+.info{
+  text-align: center
+}
+img {
+  border: 1px double #283F3B;
+  border-radius: 4px;
+  padding: 5px;
+ max-width: 20%;
+}
+.me{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      .friends {
+        flex-basis: 70%;
+        order: 2;
+      }
+      .hobbies1 {
+        color:black;
+        padding-left: 20px;
+        font: italic 25px "Fira Sans", serif;
+        width: 11em; 
+       word-wrap: break-word;
+      }
+      .container2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px
+      }
+      .chews {
+        flex-basis: 70%;
+        order: 2;
+      }
+      .hobbies2 {
+        color: black;
+        padding-left: 20px;
+        font: italic 25px "Fira Sans", serif;
+        width: 11em; 
+       word-wrap: break-word;
+      }
+      
